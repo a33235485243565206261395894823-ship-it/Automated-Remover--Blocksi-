@@ -212,12 +212,38 @@ script.log
 Delete-Blocksi-Windows11
 │
 ├── README.md
+├── BLOCKSI.md
+├── LICENSE.md
+├── SECURITY.md
+├── Delete_Blocksi.ico
+├── Delete_Blocksi.png
 ├── Delete_Blocksi.ps1
 ├── Delete_Blocksi.bat
+├── Delete_Blocksi (Shortcut, if created)
 └── script.log (created automatically)
       
 ## Shortcut
-A shortcut was created that lauches the `.bat` file. This file could be customized with an icon. Users could use the `ico` file provided as the icon for this file or they may create their own. This shortcut can be stored on the desktop or be pinned to the taskbar.
+A shortcut can be created that lauches the `.bat` file. This file could be customized with an icon. Users could use the `ico` file provided as the icon for this file or they may create their own. This shortcut can be stored on the desktop or be pinned to the taskbar. To create follow these instructions:
+1. Press Windows+E
+2. Navigate to the folder with all the other files
+3. Click New (top-left corner)
+4. Click Shotcut
+5. Type/Browse the location of the `.bat` file
+6. Press Next
+7. Rename if preferred
+8. Press Finish
+
+To Change the icon:
+1. Right click on shortcut
+2. Press Properties
+3. Press Change Icon...
+4. If there is a pop-up, press Ok
+5. Click Browse
+6. Navigate to the folder with all other files
+7. Select the `.ico` file
+8. Click Open
+9. Click Ok
+10. Click Ok
 
 ## Version History
 1.0.0 Official Build | Stable Release
