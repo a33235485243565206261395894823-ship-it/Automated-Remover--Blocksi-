@@ -34,7 +34,7 @@ This utility consists of three components that work together:
 ### 1. Delete_Blocksi.bat
 
 #### Purpose
-A minimal launcher intended to start the deletion workflow and display live logs from the PowerShell script. By clicking directly. Users could use the `ico` file provided as the icon for this `.bat` file.
+A minimal launcher intended to start the deletion workflow and display live logs from the PowerShell script. By clicking directly.
 
 #### Contents
 ```bat
@@ -216,6 +216,9 @@ Delete-Blocksi-Windows11
 ├── Delete_Blocksi.bat
 └── script.log (created automatically)
       
+## Shortcut
+A shortcut was created that lauches the `.bat` file. This file could be customized with an icon. Users could use the `ico` file provided as the icon for this file or they may create their own. This shortcut can be stored on the desktop or be pinned to the taskbar.
+
 ## Version History
 1.0.0 Official Build | Stable Release
 
